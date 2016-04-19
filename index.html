@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Primera Aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
+<h1>Volcan Popocatepetl </h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Volcan</h1>
+<div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexvisor.html" style="width:978px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com --> </div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Ubicacion y Dimensiones</h2>
+<p>Se muestra la ubicacion y dimension del volcan</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dependencias que lo monitorean</h2>
+<p>Se muestra sus dependencias</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Medidas preventivas en caso de caida de ceniza</h2>
+<p>Muestra las medidas preventivas para el volcan</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Medidas preventivas en caso de caida de erupcion</h2>
+<p>Muestra las medidas preventivas </p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Volcan de Colima</h2>
+<p>Muestra informacion del volcan</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+
+  <div>
+  <h4>Aplicacion 3</h4>
+  <h4>Jose Heriberto Bautista Ramirez</h4>
+  </div>
+  </div>
+  </div>
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>La Ubicacion:</h1>
+ 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>en el centro de México, 
+  en los límites territoriales de los estados de Morelos, 
+  Puebla y México. Se localiza a unos 72 km al sureste de la Ciudad de México, 
+  43 km de Puebla, 63 km de Cuernavaca, y 53 km de Tlaxcala</h2>
+  <h2><img src="imagenes/volcan1.jpg" width="50%" height="50%"></h2>
+  <h2>Tiene una forma cónica simétrica y está unido por la parte 
+  norte con el Iztaccíhuatl mediante un paso montañoso conocido como Paso de Cortés. 
+  El volcán tiene glaciares perennes cerca de la boca del cono, en la punta de la montaña.
+  Es el segundo volcán más alto de México, con una altitud máxima de 5500 metros 
+  sobre el nivel del mar, sólo después del Citlaltépetl de 5610 msnm.</h2>
+  </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Aplicacion Tres, JHBR</h4>
+  </div>
+  </div>
+  </div>
+ 
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h4>Monitoreo</h4>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h2>Cuatro tipos de monitoreo se han establecido en el volcán: 
+ visual, sísmico, geodésico y geoquímico, de los cuales el más importante es el sísmico. 
+ La red de monitoreo del Popocatépetl está compuesta por 15 estaciones localizadas 
+ en las laderas circundantes del volcán en sitios con altitudes de hasta 
+ 4300 m y a 1.5 km del cráter. La instrumentación consta de 8 sismógrafos triaxiales 
+ de periodo corto, 4 de banda ancha, 4 inclinómetros biaxiales para medir deformación, 
+ una cámara de video con enlace de microondas, un radar doppler meteorológico y 
+ diversos   equipos para mediciones geodésicas, análisis químicos y determinación de 
+ las concentraciones de gases SO2 y CO2. Más de 50 señales de telemetría son trasmitidas 
+ en forma continua hacia un puesto central de registro y procesamiento localizado 
+ en el CENAPRED.</h2>
+ <h2>Para Mas Informacion Clic Aqui<a href="mailto:http://www.cenapred.unam.mx/es/">Cenapred</a></h2>
+ <h2><img src="imagenes/monitoreo.jpg" width="50%" height="50%"></h2>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Tres, JHBR</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>¿Qué debemos de hacer en caso de caida de ceniza del Volcán Popocatépetl?:</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h1>No humedecer la ceniza a fin de evitar taponamientos en el sistema 
+ de alcantarillado
+ Mantén la calma.
+ Utiliza medios electrónicos y de comunicación para obtener información confiable que den las autoridades de Protección Civil sobre la caída de ceniza y 
+ atiende siempre sus  instrucciones.
+ No realices actividades al aire libre y si es posible no salgas.
+ Cierra puertas y ventanas y coloca toallas o trapos húmedos en las rendijas.
+ Si tienes que salir cúbrete con un pañuelo o tapabocas, limpia ojos y garganta
+ con agua pura.
+ Para los ojos, usa lentes protectores, especialmente si usas lentes de contacto.
+ Ten a la mano una linterna y pilas.
+ La ceniza volcánica puede ser resbaladiza, sobre todo cuando está mojada. 
+ Toma las  precauciones necesarias.
+ Cubre tinacos, cisternas y depósitos de agua.
+ Barre y retira la ceniza de techos, azoteas, patios y calles, deposítalas 
+ en bolsas y no permitas que se vaya al drenaje.
+ Si es posible no conduzcas, si tienes que hacerlo, hazlo a baja velocidad 
+ y con las luces encendidas, ya que la ceniza dificulta la visibilidad y provoca 
+ que el  pavimento se vuelva resbaloso.
+ Ante la caída de ceniza volcánica evita consumir alimentos en la vía pública.
+ Si permaneces expuesto por algún tiempo a las cenizas volcánicas, al ingresar a 
+ tu casa se  recomienda cambiar de ropa.
+ Durante la caída de ceniza volcánica, evita que los menores realicen actividades
+ al aire libre.
+ Mantén a tus mascotas en un lugar techado al igual que sus alimentos. Si tus macotas salen,  cepíllalos antes de permitirles la entrada nuevamente.
+ La ceniza puede ser usada para parques, jardines, macetas o tierras de cultivo, 
+ ya que es rica en minerales.
+ No repitas ni difundas rumores. La ciudad de Puebla se encuentra a una distancia segura, 
+ no intentes salir.
+ Usa las vías de comunicación solo en caso de ser necesario. </h1>
+ <h2><img src="imagenes/ceniza.jpg" width="50%" height="50%"></h2>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Tres, JHBR</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h4>¿Qué debemos de hacer en caso de una Erupción del Volcán Popocatépetl?:</h4>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Identifique si en su comunidad hay amenaza volcánica y trate de no ubicarse
+     dentro de su área de influencia.
+     Cubra los depósitos de agua para evitar contaminación por la caída de ceniza.
+     Conozca cual es la ruta de evacuación más apropiada y menos expuesta a los
+     efectos de la erupción y diríjase siempre hacia tierras más alta.
+     Aunque la erupción le parezca tranquila, no se acerque al volcán.
+     El viento puede arrastrar vapores calientes y existe la posibilidad que 
+     se arrojen     súbitamente productos sólidos.
+     Busque refugio bajo techo, si no lo encuentra, procure respirar a través de 
+     una tela humedecida de agua o vinagre, eso evita el paso de los gases y 
+     el polvo volcánico. Proteja sus ojos cerrándolos tanto como sea posible.
+     Permanezca en sitio seguro hasta que las autoridades informen las medidas a seguir.
+     Tenga presente el efecto que causa la acumulación de materia volcánica sobre
+     los techos, en donde el peso puede aumentar si se mezcla con el agua </h2>
+ <img src="imagenes/volcane.jpg" width="50%" height="50%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Tres, JHBR</h4>
+ </div>
+ </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Volcan de Colima</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>El volcán de colima es un estratovolcán ubicado en los límites de los estados 
+ de Colima y Jalisco, en México. El volcán de Colima o volcán de Fuego 
+ se eleva entre 3870 y 3940 msnm, y su altura se encuentra en un constante cambio 
+ gracias a la constante actividad que ha presentado durante los últimos años</h2>
+ <img src="imagenes/volcanc.jpg" width="50%" height="50%">
+ <h2>Explosiones:
+     A lo largo de 500 años, el volcán ha tenido más de 40 explosiones desde 1576, 
+     de entre las cuales destacan las de 1585, 1606, 1622, 1690, 1818, 1890, 1903, 1913 
+     (el 13 de enero de ese año se cerró el cuarto ciclo de actividad) y 1999. 
+     El 6 de junio del 2005, a las 11.00 (hora local), se produjo una columna eruptiva
+     que alcanzó 4 km sobre el volcán, arrojó cenizas de roca y piroclastos, 
+     y desde  principios de enero del 2013 se ha clasificado en actividad creciente 
+    (se produjo una explosión estruendosa el día 29).
+     Su ciclo eruptivo es de aproximadamente 100 años; en 2015 comenzó a presentar 
+     un aumento en su actividad que está en constante vigilancia</h2>
+     <img src="imagenes/volcance.jpg" width="50%" height="50%">
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Aplicacion Tres, JHBR	</h4>
+ </div>
+ </div>
+ </div>
+
+ </body>
+ </html>
